@@ -1,0 +1,33 @@
+A. why npm
+
+=>  It is an online repository for the publishing of open-source Node.js projects.
+=>  It is used to dependency management of Node.js packages.
+=>  npm also has a command line tool that lets us easily install, manage and run projects
+=>  Run packages without downloading using npx.
+=>  Share code with any npm user, anywhere.
+
+B.why npm -g , save-dev?
+
+=>  save-dev:
+                =>  It create a devDependencies object
+                => Package will appear in your devDependencies.
+
+C.  How to upgarde to new express js
+
+=>  To add the latest version to your production dependencies,
+    you can simply run  "npm i express@latest" or "npm update express"
+
+D.how to use old express js
+
+=>  This is pretty easy, to remove the " current version " of express, just type
+        Command : npm uninstall express
+=>  Followed by the following command to install a specific version of a package
+        Command : npm install express@2.x.x
+
+E. Why yarn
+
+=>      Yarn is a JavaScript package manager created by Facebook. 
+        Yarn stands for Yet Another Resource Negotiator. 
+        It provides similar functionalities as NPM.
+        It is an alternative to NPM when installing, uninstalling,
+        and managing package dependencies from the NPM.
