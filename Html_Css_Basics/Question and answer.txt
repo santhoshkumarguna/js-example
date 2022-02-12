@@ -1,0 +1,40 @@
+1 . Explain about basic template in HTML5
+       
+       Your HTML5 template needs to start with a document type declaration, or doctype. 
+       A doctype is simply a way to tell the browser — or any other parser — what type of document it's looking at.
+       In the case of HTML files,
+       it means the specific version and flavor of HTML.
+
+2 . Explain different ways to apply CSS
+       
+       Three ways to apply styles
+
+          =>Internal
+          =>External
+          =>Inline
+
+3 . Explain CSS box-diagram
+      The CSS Box Model is used to create a definition for the way the HTML elements are organized on the screen. 
+      This approach accounts for options such as
+       => margins 
+       => padding 
+       => borders, 
+      and all the properties that manipulate them. 
+      Each element can be thought of as having its own box
+
+4 . Css Rules
+    
+    The CSS syntax consists of a set of rules. 
+    These rules have 3 parts:
+    
+     => a selector,
+     => a property,
+     => and a value.
+
+5 . CSS Selectors
+    
+    => Element Selector
+    => Id Selector
+    => Class Selector
+    => Universal Selector
+    => Group Selector

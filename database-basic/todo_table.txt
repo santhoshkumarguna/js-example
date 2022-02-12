@@ -1,0 +1,28 @@
+create table todo_table(id serial primary key,
+						name varchar not null,
+						task varchar not null,
+						category varchar not null,
+						status varchar not null,
+						due_date date not null,
+					   unique (name,task,category,status))
+
+insert into todo_table
+       (name,task,category,status,due_date)
+	   values 
+	   ('Sathish','Get trained in hardware','IT','in-progres','2021-09-30')
+select * from todo_table
+update todo_table set id=5 where task='Get trained in hardware'
+delete from todo_table
+select max(id) from todo_table
+select min(id) from todo_table
+select sum (id) from todo_table
+select count(name) from todo_table
+select count(id) from todo_table where name='Jay'
+
+select name, count(name)
+    from todo_table
+    group by name;
+
+select name,count(*) from todo_table group by name
+
+drop table todo_table

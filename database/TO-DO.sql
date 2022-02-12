@@ -1,10 +1,4 @@
 -- Create
-CREATE Table person(
-  id int NOT NULL,
-  name varchar NOT NULL,
-  PRIMARY KEY(id)
-)
-
 CREATE Table todo(    
   id int NOT NULL,
   person_id int NOT NULL,
@@ -19,6 +13,12 @@ CREATE Table todo(
   FOREIGN KEY (category_id) REFERENCES category(id),
   FOREIGN KEY (status_id) REFERENCES status(id)
 )
+
+CREATE Table person(
+  id int NOT NULL,
+  name varchar NOT NULL,
+  PRIMARY KEY(id)
+) 
 
 CREATE Table category(
   id int NOT NULL,
@@ -84,5 +84,5 @@ category_name,priority.level,status.name AS status_name,due_date
 FROM todo
 FULL OUTER JOIN person ON person.id = todo.person_id
 INNER JOIN category ON category.id = todo.category_id
-INNER JOIN priority ON priority.id = todo.priority_id
+INNER JOIN priority ON priority.id = todo.priority_id 
 INNER JOIN status ON status.id = todo.status_id

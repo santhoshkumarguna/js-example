@@ -1,0 +1,78 @@
+.table-row2,.table-row3{
+background-color: #33656c;
+margin: 3px;
+}
+.table-row1{
+    background-color: #8d9775;
+    margin: 3px;
+}
+.table-row2-2{
+    margin: 3px;
+}
+h1{
+    color: brown;
+}
+.table-row2-split1{
+margin-right: 2px;
+}
+.table-row2-split2{
+margin-left: 2px;
+}
+.table-row2-split1, .table-row2-split2{
+    background-color: #33656c;
+    width: 50%;
+    height: 100%;
+}
+.table-row1-1,.table-row1-2,.table-row1-3{
+    background-color: #8d9775;
+    width: calc(100%/3);
+    height: 100%;
+}
+.table-row1-1{
+margin-right: 4px;
+}
+.table-row1-2{
+margin-right: 4px;
+}
+.table-row2-ex3,.table-row4-ex3{
+    background-color: #33656c;
+    margin: 4px 0;
+}
+.table-row3-ex3-1{
+    background-color: #33656c;
+    margin-right: 2px;
+    width: 50%;
+    height: 100%;
+}
+
+.table-row3-ex3-2{
+    background-color: #33656c;
+    margin-left: 2px;
+    width: 50%;
+    height: 100%;
+}
+.ex-4-1{
+    margin-right: 4px;
+    flex: 1;
+    height: 100%;
+    background-color: #8d9775;
+}
+.ex-4-2{
+    flex: 2;
+    height: 100%;
+}
+.ex-4-2-1{
+    background-color: #8d9775;
+    width: 100%;
+    flex: calc(100%/3);
+}
+.ex-4-2-2{
+    margin: 4px 0;
+    width: 100%;
+    flex: calc(100%/3);
+    background-color: #33656c;
+}
+.ex-4-2-3{
+    width: 100%;
+    flex: calc(100%/3);
+}

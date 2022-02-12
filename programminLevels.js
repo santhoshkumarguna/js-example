@@ -19,4 +19,4 @@ const independentMostOfTheTime = true
 // Architect - 2 Years
 const startSettingFramework = true
 const startSettingStandards = true
-const startReviewinGCode = trues
+const startReviewinGCode = true

@@ -1,0 +1,10 @@
+1 => 1DDl? DML?
+
+   DDL is Data Definition Language which is used to define data structures. 
+   For example: create table, alter table are instructions in SQL. DML: DML is Data Manipulation Language which is used to manipulate data itself. 
+   For example: insert, update, delete are instructions in SQL
+
+2 => what is database?
+
+   A database is an organized collection of data, so that it can be easily accessed and managed.
+   You can organize data into tables, rows, columns, and index it to ...
